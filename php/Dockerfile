@@ -1,4 +1,4 @@
-FROM php:7.3.5-fpm-alpine3.9
+FROM php:8.2.31-fpm-alpine3.22
 COPY php.ini /usr/local/etc/php/
 
 # install composer
